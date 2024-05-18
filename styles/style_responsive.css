@@ -1,0 +1,128 @@
+  /* 2xl */
+@media (max-width: 1536px) {
+  /* body {
+    background-color: rgb(0, 0, 255);
+  } */
+}
+
+/* xl */
+@media (max-width: 1280px) {
+    body {
+        background-color: red;
+      }
+
+}
+
+/* lg */
+@media (max-width: 1024px) {
+      .about {
+        flex-wrap: wrap;
+      }
+
+      .title__about {
+        align-items: center;
+      }
+      
+      .game__info__section {
+        flex-wrap: wrap;
+      }
+
+      .burger {
+        display: flex !important;
+        cursor: pointer;
+      }
+
+      .links__header {
+        display: none !important;
+    }
+
+    .game__info__images img {
+      width: 30% !important;
+      height: 100% !important;
+    }
+}
+
+/* md */
+@media (max-width: 768px) {
+  body {
+    background-color: blueviolet;
+  }
+
+  .game__image {
+    width: 100% !important;
+    height: 50vh !important;
+    transition: 0.5s ease-in-out;
+  }
+
+  .logo__footer {
+    font-size: clamp(.5rem, 10vw, 1.3rem) !important;
+  }
+
+  .logo__footer h2 {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .footer_wrapper {
+    display: block !important;
+    height: auto !important;
+  }
+
+  .links__footer {
+    flex-direction: column;
+    margin: 20px 0px 10px 0px;
+}
+
+.copyright__footer {
+  text-align: center;
+  border: solid;
+}
+}
+
+/* sm */
+@media (max-width: 640px) {
+  body {
+    background-color: rgb(78, 128, 111);
+  }
+
+  .title__aside p {
+    margin: 0 !important;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  body {
+    background-color: rgb(218, 255, 7);
+  }
+
+  .logo img {
+    height: 11vh !important;
+  }
+
+  .welcome__page h1 {
+    font-size: clamp(3rem, 13vw, 7rem) !important;
+    width: clamp(20vw, 30em, 80vw) !important;
+  }
+  .welcome__page p {
+    font-size: clamp(1rem, 7vw, 1.7rem) !important;
+    width: clamp(10vw, 20em, 80vw) !important;
+  }
+
+  .right__image img {
+    display: none;
+  }
+
+  .about h1, .about h2 {
+    width: 100% !important;
+    font-size: clamp(1rem, 20em, 2.3rem) !important;
+  }
+
+  .aside__life p {
+    font-size: clamp(1.65rem, 20em, 1rem) !important;
+  }
+
+
+  
+  
+}

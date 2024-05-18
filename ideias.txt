@@ -1,0 +1,11 @@
+// close button on video
+// disable scroll on video
+// h1 on welcome__page will be smaller when scroll down
+// responsive
+// another section(culture inside incorporation)
+// fotter
+// make shure to improve division between sections
+// remove our services and add join us (like cd project red)
+// make a burger in header links if user scrolls down
+
+//https://www.starbreeze.com/ current project
